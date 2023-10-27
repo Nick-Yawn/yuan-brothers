@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import './vector.css'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={"/vector.png"} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <span className="direction">~Direction~</span> and <span className="magnitude">Magnitude</span>
+          <br></br>OH YEAH!!
         </p>
         <a
           className="App-link"
